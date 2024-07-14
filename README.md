@@ -1,7 +1,26 @@
 # CookAR
+~~Banner Figs here~~
 # Set up
-conda blablabala, mmdet blablabla
+To use CookAR, we recommand using Conda. CookAR also depends on [MMDetection toolbox](https://mmdetection.readthedocs.io/en/latest/) and [PyTorch](https://pytorch.org/get-started/locally/). If your GPU supports [CUDA](https://developer.nvidia.com/cuda-toolkit), please install it first.
+
+```
+conda create --name=CookAR python=3.8 
+conda activate CookAR
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118  //change according to your cuda version
+pip install -U openmim
+mim install mmengine
+mim install "mmcv>=2.0.0"
+git clone https://github.com/open-mmlab/mmdetection.git
+cd mmdetection
+pip install -v -e .
+```
+It is recommended that you first install PyTorch and then MMDetection otherwise it might not be correctly complied with CUDA.
+
+- Once you installed everything, firstly make three folders inside the mmdetection directory namely `./data`, `./checkpoints` and `./work_dir` either manually or using `mkdir` in conda.
+- Download pre-trained config and weights files from mmdetection by running `mim download mmdet --config rtmdet-ins_l_8xb32-300e_coco --dest ./checkpoints` and run `python test_install.py` to check see if things are working correctly.  You should see an image with segmentation masks pops out.
+
 # Dataset
+~~brief descrption and stats about the dataset~~
 
 # Model fine-tuning & Run on image and video
 In this section we provide a brief guideline about how to fine-tune the CookAR models on your customzied datasets and how to run on imgae or video of your choice. Specifically, we break this section into four parts:
@@ -14,11 +33,11 @@ In this section we provide a brief guideline about how to fine-tune the CookAR m
 CookAR is initially fine-tuned on RTMDet-Ins-L with frozen backbone stages, which can be found at the [official repo](https://github.com/open-mmlab/mmdetection). You can find a more detailed tutorial on fine-tuning RTMDet related models at [here](https://github.com/makeabilitylab/mmdet-fine-tuning).
 
 ## Step1: Download the checkpoints
-- Vanilla CookAR: Use this [link](https://google.com) (**put the trained weights here in a gdrive link as they are generally too big to be held at github, delete when done**) to download our fine-tuned weights.
+- Vanilla CookAR: Use this [link](https://google.com) ~~(**put the trained weights here in a gdrive link as they are generally too big to be held at github, delete when done**)~~ to download our fine-tuned weights.
 
-You can directly use it for your tasks or build upon it with your own data.
+You can directly use it for your tasks ( jump to step 5 ) or build upon it with your own data.
 ## Step2: Download and check the dataset
-- CookAR Dataset: Use this [link](https://google.com) (**put dataset zip here in a gdrive or roboflow link if they are generally too big to be held at github, delete when done**) to download our self-built dataset in **COCO-MMDetection** format.
+- CookAR Dataset: Use this [link](https://google.com) ~~(**put dataset zip here in a gdrive or roboflow link if they are too big to be held at github, delete when done**)~~ to download our self-built dataset in **COCO-MMDetection** format.
 
 If you are fine-tuning with your own dataset, make sure it is also in COCO-MMDetection format and it is recommanded to run `coco_classcheck.py` in fine-tuning folder to check the classes contained.
 ## Step3: Edit configuration file
@@ -31,3 +50,5 @@ Run `python tools/train.py PATH/TO/CONFIG`.
 
 ## Step5: Run on image or video
 Use the provided scripts `infer_img.py` and `infer_video.py` to run inferences on a single image or video.
+
+# Other sections if necessary
