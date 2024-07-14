@@ -1,7 +1,7 @@
 # CookAR
 # Set up
 conda blablabala, mmdet blablabla
-
+# Dataset
 
 # Model fine-tuning & Run on image and video
 In this section we provide a brief guideline about how to fine-tune the CookAR models on your customzied datasets and how to run on imgae or video of your choice. Specifically, we break this section into four parts:
@@ -18,7 +18,7 @@ CookAR is initially fine-tuned on RTMDet-Ins-L with frozen backbone stages, whic
 
 You can directly use it for your tasks or build upon it with your own data.
 ## Step2: Download and check the dataset
-- CookAR Dataset: Use this [link](https://google.com) (**put dataset zip here in a gdrive or roboflow link as they are generally too big to be held at github, delete when done**) to download our self-built dataset in **COCO-MMDetection** format.
+- CookAR Dataset: Use this [link](https://google.com) (**put dataset zip here in a gdrive or roboflow link if they are generally too big to be held at github, delete when done**) to download our self-built dataset in **COCO-MMDetection** format.
 
 If you are fine-tuning with your own dataset, make sure it is also in COCO-MMDetection format and it is recommanded to run `coco_classcheck.py` in fine-tuning folder to check the classes contained.
 ## Step3: Edit configuration file
