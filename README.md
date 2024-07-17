@@ -89,7 +89,7 @@ Run `python tools/train.py PATH/TO/CONFIG`.
 Use the provided scripts `infer_img.py` and `infer_video.py` to run inferences on a single image or video.
 
 ## Citation
-```
+```bibtex
 @inproceedings{lee2024cookar,
   author = {Lee, Jaewook and Tjahjadi, Andrew D. and Kim, Jiho and Yu, Junpu and Park, Minji and Zhang, Jiawen and Li, Yang and Kim, Sieun and Liu, XunMei and Froehlich, Jon E. and Tian, Yapeng and Zhao, Yuhang},
   title = {CookAR: Affordance Augmentations in Wearable AR to Support Kitchen Tool Interactions for People with Low Vision},
