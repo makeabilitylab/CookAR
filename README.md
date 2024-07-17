@@ -1,5 +1,42 @@
-# CookAR
-~~Banner figs  and introduction here~~
+<p align="center">
+
+  <h1 align="center">CookAR: Affordance Augmentations in Wearable AR to Support Kitchen Tool Interactions for People with Low Vision</h1>
+  <p align="center">
+    Jaewook Lee<sup>1</sup>, 
+    Andrew D. Tjahjadi<sup>1</sup>,
+    Jiho Kim<sup>1</sup>,
+    Junpu Yu<sup>1</sup>,
+    Minji Park<sup>2</sup>,
+    Jiawen Zhang<sup>1</sup>, <br>
+    Yang Li<sup>1</sup>,
+    Sieun Kim<sup>3</sup>,
+    XunMei Liu<sup>1</sup>,
+    Jon E. Froehlich<sup>1</sup>,
+    Yapeng Tian<sup>4</sup>,
+    Yuhang Zhao<sup>5</sup>
+    <br><br>
+    <sup>1</sup>University of Washington, 
+    <sup>2</sup>Sungkyunkwan University, 
+    <sup>3</sup>Seoul National University,<br>
+    <sup>4</sup>University of Texas at Dallas,
+    <sup>5</sup>University of Wisconsin-Madison
+    <br>
+  </p>
+  <h2 align="center">UIST 2024</h2>
+  <h3 align="center"><a href="https://github.com/makeabilitylab/CookAR">Code</a> | <a href="">Paper </a> </h3>
+  <div align="center"></div>
+</p>
+<p align="center">
+  <a href="">
+    <img src="https://github.com/makeabilitylab/CookAR/blob/main/assets/banner.png" alt="Logo" width="100%">
+  </a>
+</p>
+<p align="center">
+<strong>CookAR</strong> is a 
+</p>
+<br>
+
+
 ## Setup
 To use CookAR, we recommand using Conda. CookAR also depends on [MMDetection toolbox](https://mmdetection.readthedocs.io/en/latest/) and [PyTorch](https://pytorch.org/get-started/locally/). If your GPU supports [CUDA](https://developer.nvidia.com/cuda-toolkit), please install it first.
 
@@ -51,4 +88,17 @@ Run `python tools/train.py PATH/TO/CONFIG`.
 ### Step 5: Run on image or video
 Use the provided scripts `infer_img.py` and `infer_video.py` to run inferences on a single image or video.
 
-## Other sections if necessary
+## Citation
+```
+@inproceedings{lee2024cookar,
+  author = {Lee, Jaewook and Tjahjadi, Andrew D. and Kim, Jiho and Yu, Junpu and Park, Minji and Zhang, Jiawen and Li, Yang and Kim, Sieun and Liu, XunMei and Froehlich, Jon E. and Tian, Yapeng and Zhao, Yuhang},
+  title = {CookAR: Affordance Augmentations in Wearable AR to Support Kitchen Tool Interactions for People with Low Vision},
+  year = {2024},
+  url = {},
+  doi = {},
+  booktitle = {Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology},
+  articleno = {},
+  numpages = {},
+  series = {UIST '24}
+}
+```
