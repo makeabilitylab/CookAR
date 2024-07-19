@@ -57,7 +57,9 @@ It is recommended that you first install PyTorch and then MMDetection otherwise 
 - Download pre-trained config and weights files from mmdetection by running `mim download mmdet --config rtmdet-ins_l_8xb32-300e_coco --dest ./checkpoints` and run `python test_install.py` to check see if things are working correctly.  You should see an image with segmentation masks pops out.
 
 ## Dataset
-~~brief descrption and stats about the dataset~~
+Along with CookAR, we have created the very first kitchen tool affordance image dataset. It contains 10,152 images (8,346 for training, 1193 for validation, and 596 for testing) with 18 categories. Those images are extracted from EPIC-KITCHENS video Dataset. We first use YOLOv8 trained on the MS COCO dataset to detect and collect relevant frames, and then we labeled them with Roboflow. Lastly we applied image augmentation techniques to enchance the generalizability of our dataset.
+
+The entire kitchen tool affordance dataset is [here](https://google.com) ~~(**put dataset zip here in a gdrive or roboflow link if they are too big to be held at github, delete when done**)~~.
 
 ## Model fine-tuning & Run on image and video
 In this section we provide a brief guideline about how to fine-tune the CookAR models on your customzied datasets and how to run on imgae or video of your choice. Specifically, we break this section into four parts:
