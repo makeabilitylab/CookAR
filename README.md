@@ -62,6 +62,7 @@ Along with CookAR, we have created the very first kitchen tool affordance image 
 The entire kitchen tool affordance dataset is [here](https://google.com)~~(**put dataset zip here in a gdrive or roboflow link if they are too big to be held at github, delete when done**)~~.
 
 ### Categories
+|  |  |
 | -------------- | -------------- |
 | Carafe Base    | Carafe Handle  |
 | Cup Base       | Cup Handle     |
