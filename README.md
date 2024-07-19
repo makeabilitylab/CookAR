@@ -59,7 +59,20 @@ It is recommended that you first install PyTorch and then MMDetection otherwise 
 ## Dataset
 Along with CookAR, we have created the very first kitchen tool affordance image dataset. It contains 10,152 images (8,346 for training, 1193 for validation, and 596 for testing) with 18 categories. Those images are extracted from EPIC-KITCHENS video Dataset. We first use YOLOv8 trained on the MS COCO dataset to detect and collect relevant frames, and then we labeled them with Roboflow. Lastly we applied image augmentation techniques to enchance the generalizability of our dataset.
 
-The entire kitchen tool affordance dataset is [here](https://google.com) ~~(**put dataset zip here in a gdrive or roboflow link if they are too big to be held at github, delete when done**)~~.
+The entire kitchen tool affordance dataset is [here](https://google.com)~~(**put dataset zip here in a gdrive or roboflow link if they are too big to be held at github, delete when done**)~~.
+
+### Categories
+| Class                           |
+| ------------------------------- |
+| Carafe Base    | Carafe Handle  |
+| Cup Base       | Cup Handle     |
+| Fork Tines     | Fork Handle    |
+| Knife Blade    | Knife Handle   |
+| Ladle Bowl     | Ladle Handle   |
+| Pan Base       | Pan Handle     |
+| Scissor Blade  | Scissor Handle |
+| Spatula Head   | Spatula Handle |
+| Spoon Bowl     | Spoon Handle   |
 
 ## Model fine-tuning & Run on image and video
 In this section we provide a brief guideline about how to fine-tune the CookAR models on your customzied datasets and how to run on imgae or video of your choice. Specifically, we break this section into four parts:
