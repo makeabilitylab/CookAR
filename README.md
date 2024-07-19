@@ -63,7 +63,7 @@ The entire kitchen tool affordance dataset is [here](https://google.com)~~(**put
 
 ### Categories
 | Class                           |
-| ------------------------------- |
+| -------------- | -------------- |
 | Carafe Base    | Carafe Handle  |
 | Cup Base       | Cup Handle     |
 | Fork Tines     | Fork Handle    |
