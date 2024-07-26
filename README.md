@@ -95,7 +95,7 @@ You can directly use it for your tasks ( jump to step 3 ) or build upon it with 
 If you are fine-tuning with your own dataset, make sure it is also in COCO-MMDetection format and it is recommanded to run `coco_classcheck.py` in fine-tuning folder to check the classes contained.
 
 ### Step 3: Download and edit configuration file
-In this repo, we also provide the config file used in our fine-tuning process, which can be found at configs folder. To use the model on your tasks directly, no modification is required and jump to step 5.
+In this repo, we also provide the config file used in our fine-tuning process, which can be found in configs folder. To use the model on your tasks directly, no modification is required and jump to step 5.
 
 Before start your own training, check and run `config_setup.py` in fine-tuning folder to edit the config file. Make sure that the number of classes is correctly modified in reflect of the dataset provided and all classes are listed in the same order shown by `coco_classcheck.py`.
 
