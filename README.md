@@ -59,6 +59,8 @@ It is recommended that you first install PyTorch and then MMDetection otherwise 
 ## Dataset
 Along with CookAR, we present the very first kitchen tool affordance image dataset, which contains **10,152** images (**8,346** for training, **1193** for validation, and **596** for testing) with **18** categories of objects listed below. Raw images were extracted from [EPIC-KITCHENS video dataset](https://epic-kitchens.github.io/2024).
 
+~~put some example images with labels here~~
+
 ### Categories
 |  |  |
 | -------------- | -------------- |
