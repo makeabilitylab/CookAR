@@ -87,18 +87,20 @@ CookAR is initially fine-tuned on RTMDet-Ins-L with frozen backbone stages, whic
 ### Step 1: Download the checkpoints
 - Vanilla CookAR: Use this [link](https://google.com) ~~(**put the trained weights here in a gdrive link as they are generally too big to be held at github, delete when done**)~~ to download our fine-tuned weights.
 
-You can directly use it for your tasks ( jump to step 5 ) or build upon it with your own data.
+You can directly use it for your tasks ( jump to step 3 ) or build upon it with your own data.
+
 ### Step 2: Download and check the dataset
 - CookAR Dataset: Use this [link](https://google.com) ~~(**put dataset zip here in a gdrive or roboflow link if they are too big to be held at github, delete when done**)~~ to download our self-built dataset in **COCO-MMDetection** format.
 
 If you are fine-tuning with your own dataset, make sure it is also in COCO-MMDetection format and it is recommanded to run `coco_classcheck.py` in fine-tuning folder to check the classes contained.
-### Step 3: Edit configuration file
-In this repo, we provide the config file used in our fine-tuning process. Before start your own training, check and run `config_setup.py` in fine-tuning folder to edit the config file. 
 
-Make sure that the number of classes is correctly modified in reflect of the dataset provided and all classes are listed in the same order shown by `coco_classcheck.py`.
+### Step 3: Download and edit configuration file
+In this repo, we also provide the config file used in our fine-tuning process. If you want to directly use the model on your own task, no modification is requried and jump to step 5.
+
+Before start your own training, check and run `config_setup.py` in fine-tuning folder to edit the config file. Make sure that the number of classes is correctly modified in reflect of the dataset provided and all classes are listed in the same order shown by `coco_classcheck.py`.
 
 ### Step 4: Start training
-Run `python tools/train.py PATH/TO/CONFIG`.
+Simply run `python tools/train.py PATH/TO/CONFIG`.
 
 ### Step 5: Run on image or video
 Use the provided scripts `infer_img.py` and `infer_video.py` to run inferences on a single image or video.
