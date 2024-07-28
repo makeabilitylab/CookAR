@@ -32,7 +32,7 @@
   </a>
 </p>
 <p align="center">
-<strong>CookAR</strong> is a 
+<strong>CookAR</strong> is a Computer Vision-powered prototype AR system with real-time object affordance augmentations to support safe and efficient interactions with kitchen tools for people with impaired vision abilities (<a href="https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/low-vision">Low Vision</a>). In this repo, we present the exact fine-tuned instance segmentation model for affordance augmentations, along with the first egocentric dataset of kitchen tool affordances collected and annotated by the research team.
 </p>
 <br>
 
@@ -62,7 +62,7 @@ Along with CookAR, we present the very first kitchen tool affordance image datas
 ~~put some example images with labels here~~
 
 ### Categories
-|  |  |
+|                |                |
 | -------------- | -------------- |
 | Carafe Base    | Carafe Handle  |
 | Cup Base       | Cup Handle     |
