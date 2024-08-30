@@ -23,7 +23,7 @@
     <br>
   </p>
   <h2 align="center">UIST 2024</h2>
-  <h3 align="center"><a href="https://github.com/makeabilitylab/CookAR">Code</a> | <a href="">Paper </a> </h3>
+  <h3 align="center"><a href="https://github.com/makeabilitylab/CookAR">Code</a> | <a href="https://arxiv.org/abs/2407.13515">Paper </a> </h3>
   <div align="center"></div>
 </p>
 <p align="center">
