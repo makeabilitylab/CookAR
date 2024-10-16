@@ -9,14 +9,13 @@
     Minji Park<sup>2</sup>,
     Jiawen Zhang<sup>1</sup>, <br>
     Jon E. Froehlich<sup>1</sup>,
-    Yapeng Tian<sup>4</sup>,
-    Yuhang Zhao<sup>5</sup>
+    Yapeng Tian<sup>3</sup>,
+    Yuhang Zhao<sup>4</sup>
     <br><br>
     <sup>1</sup>University of Washington, 
-    <sup>2</sup>Sungkyunkwan University, 
-    <sup>3</sup>Seoul National University,<br>
-    <sup>4</sup>University of Texas at Dallas,
-    <sup>5</sup>University of Wisconsin-Madison
+    <sup>2</sup>Sungkyunkwan University,
+    <sup>3</sup>University of Texas at Dallas,
+    <sup>4</sup>University of Wisconsin-Madison
     <br>
   </p>
   <h2 align="center">UIST 2024</h2>
@@ -108,7 +107,7 @@ Simply run `python tools/train.py PATH/TO/CONFIG`.
 Use the provided scripts `infer_img.py` and `infer_video.py` to run inferences on a single image or video.
 
 ## Acknowledgements
-We thank Yang Li, Sieun Kim, and XunMei Liu for their assistance with this repo.
+We thank Yang Li (University of Washington), Sieun Kim (Seoul National University), and XunMei Liu (University of Washington) for their assistance with this repo.
 
 ## Citation
 ```bibtex
