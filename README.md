@@ -8,9 +8,6 @@
     Junpu Yu<sup>1</sup>,
     Minji Park<sup>2</sup>,
     Jiawen Zhang<sup>1</sup>, <br>
-    Yang Li<sup>1</sup>,
-    Sieun Kim<sup>3</sup>,
-    XunMei Liu<sup>1</sup>,
     Jon E. Froehlich<sup>1</sup>,
     Yapeng Tian<sup>4</sup>,
     Yuhang Zhao<sup>5</sup>
@@ -110,17 +107,26 @@ Simply run `python tools/train.py PATH/TO/CONFIG`.
 ### Step 5: Run on image or video
 Use the provided scripts `infer_img.py` and `infer_video.py` to run inferences on a single image or video.
 
+## Acknowledgements
+We thank Yang Li, Sieun Kim, and XunMei Liu for their assistance with this repo.
+
 ## Citation
 ```bibtex
-@inproceedings{lee2024cookar,
-  author = {Lee, Jaewook and Tjahjadi, Andrew D. and Kim, Jiho and Yu, Junpu and Park, Minji and Zhang, Jiawen and Li, Yang and Kim, Sieun and Liu, XunMei and Froehlich, Jon E. and Tian, Yapeng and Zhao, Yuhang},
+@inproceedings{10.1145/3654777.3676449,
+  author = {Lee, Jaewook and Tjahjadi, Andrew D. and Kim, Jiho and Yu, Junpu and Park, Minji and Zhang, Jiawen and Froehlich, Jon E. and Tian, Yapeng and Zhao, Yuhang},
   title = {CookAR: Affordance Augmentations in Wearable AR to Support Kitchen Tool Interactions for People with Low Vision},
   year = {2024},
-  url = {},
-  doi = {},
+  isbn = {9798400706288},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3654777.3676449},
+  doi = {10.1145/3654777.3676449},
+  abstract = {Cooking is a central activity of daily living, supporting independence as well as mental and physical health. However, prior work has highlighted key barriers for people with low vision (LV) to cook, particularly around safely interacting with tools, such as sharp knives or hot pans. Drawing on recent advancements in computer vision (CV), we present CookAR, a head-mounted AR system with real-time object affordance augmentations to support safe and efficient interactions with kitchen tools. To design and implement CookAR, we collected and annotated the first egocentric dataset of kitchen tool affordances, fine-tuned an affordance segmentation model, and developed an AR system with a stereo camera to generate visual augmentations. To validate CookAR, we conducted a technical evaluation of our fine-tuned model as well as a qualitative lab study with 10 LV participants for suitable augmentation design. Our technical evaluation demonstrates that our model outperforms the baseline on our tool affordance dataset, while our user study indicates a preference for affordance augmentations over the traditional whole object augmentations.},
   booktitle = {Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology},
-  articleno = {},
-  numpages = {},
+  articleno = {141},
+  numpages = {16},
+  keywords = {accessibility, affordance segmentation, augmented reality, visual augmentation},
+  location = {Pittsburgh, PA, USA},
   series = {UIST '24}
 }
 ```
