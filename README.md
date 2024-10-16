@@ -13,7 +13,7 @@
     Yuhang Zhao<sup>4</sup>
     <br><br>
     <sup>1</sup>University of Washington, 
-    <sup>2</sup>Sungkyunkwan University,
+    <sup>2</sup>Sungkyunkwan University, <br>
     <sup>3</sup>University of Texas at Dallas,
     <sup>4</sup>University of Wisconsin-Madison
     <br>
